@@ -1,0 +1,146 @@
+body {
+  background: #e8f0f4;
+  font-family: 'Open Sans', sans-serif;
+  color: #9ab2c1;
+}
+
+.page {
+  margin: 50px auto;
+  width: 80%;
+}
+
+html {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.main-header {
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.logo {
+  width: 300px;
+}
+
+.description {
+  display: block;
+  font-size: .9rem;
+}
+
+.description a {
+  color: #2d3642;
+  font-weight: bold;
+}
+
+.description a:hover {
+  color: #9ab2c1;
+}
+
+/* main section */
+.main {
+  text-align: center;
+}
+
+.main a {
+  color: #9ab2c1;
+  font-size: 1.3rem;
+}
+
+.main a:hover {
+  color: #2d3642;
+}
+
+.Project {
+  margin-bottom: 90px;
+}
+
+.Project-preview {
+  max-width: 250px;
+  max-height: 250px;
+  min-width: 250px;
+  min-height: 250px;
+}
+
+.Project-headline {
+  margin: 0;
+  color: #2d3642;
+  font-size: 1.5rem;
+}
+
+.Project-actions {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.Project-actionsItem {
+  margin: 20px;
+  display: inline-block;
+}
+
+/* footer */
+.footer {
+  padding: 15px;
+  background: #2d3642;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer a {
+  padding: 0 20px;
+  color: white;
+  font-size: 2rem;
+}
+
+.footer a:hover {
+  color: #9ab2c1;
+}
+
+.ll-logo {
+  vertical-align: middle;
+  width: 2.4rem;
+}
+
+/* all that small to big stuff */
+@media (min-width: 800px) {
+  .logo {
+    width: 400px;
+  }
+  .thumbnails {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1100px) {
+  html {
+    font-size: 19px;
+  }
+  .logo {
+    width: 500px;
+  }
+  .main {
+    margin: auto;
+    width: 70%;
+  }
+  .thumbnails {
+    display: block;
+  }
+  .Project-details {
+    display: flex;
+  }
+  .Project-headline {
+    text-align: left;
+  }
+  .right-aside {
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
